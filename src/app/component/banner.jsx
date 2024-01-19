@@ -2,7 +2,7 @@
 import Link from "next/link";
 import bannertruck from "../../assets/bannertruck.png";
 import Image from "next/image";
-
+import checked from "../../assets/checked.svg";
 function BannerComponent() {
   return (
     <>
@@ -15,16 +15,16 @@ function BannerComponent() {
           <h1 className="bg-transparent lg:text-3xl md:text-2xl text-xl text-center lg:py-20 py-5 font-bold text-black hover:text-stone-50 rounded-lg">
             Business Ultimate Transportation Enabler
           </h1>
-          <div className="bg-lime-600 mt-[100px] max-sm:mt-3 p-2 items-center rounded-full grid grid-cols-2 ">
-            <div className="px-40"></div>
-            <div className="">
-              <Link
-                href="/about"
-                className="hover:bg-white text-sm hover:text-black p-2 rounded-full text-stone-50 font-semibold"
-              >
-                Discover
-              </Link>
-            </div>
+          <div className="bg-lime-600  max-sm:mt-3 flex justify-end p-2  rounded-full  ">
+            <Link
+              href="/about"
+              className="hover:bg-white text-sm bg-white flex items-center gap-2 dark:text-black hover:text-black p-2  rounded-full text-stone-50 font-semibold"
+            >
+              Discover
+              <div className=" bg-lime-600 rounded-full p-[10.5px] ">
+                <Image src={checked} className=" h-[15px] w-[15px]" alt="" />{" "}
+              </div>
+            </Link>
           </div>
         </div>
       </div>
