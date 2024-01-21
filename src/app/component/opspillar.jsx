@@ -127,7 +127,7 @@ function PillarComponents() {
             • Daily order report
           </div>
         </div>
-        <h2 className="px-2 text-black text-xl font-semibold hover:text-white">
+        <h2 className="px-2 text-black text-lg font-semibold hover:text-[#DDE485]">
           Operational Pillar
         </h2>
       </div>

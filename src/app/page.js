@@ -7,6 +7,10 @@ import PillarComponents from "./component/opspillar";
 import OverviewComponent from "./component/overview";
 import TestiComponent from "./component/testi";
 import photo from "../assets/photo.png";
+import OperationComponent from "./component/operation";
+import ExpertiseComponent from "./component/expertise";
+import port from "../assets/port.jpg";
+import ServiceComponent from "./component/briefservices";
 
 export default function Home() {
   return (
@@ -17,6 +21,9 @@ export default function Home() {
       <PillarComponents />
       <Image src={photo} className="w-full md:hidden" />
       <OverviewComponent />
+
+      <ServiceComponent />
+      <Image src={port} className="w-full" />
 
       <TestiComponent />
 

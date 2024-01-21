@@ -11,13 +11,13 @@ function NavbarComponents() {
   return (
     <>
       {/* menu bar */}
-      <div className="flex justify-between sticky z-50 top-0 p-1 bg-lime-700 items-center">
-        <div className="px-3 gap-4 text-sm md:flex hidden ">
+      <div className="flex justify-between sticky z-50 top-0 p-2 bg-lime-700 items-center">
+        <div className="px-3 gap-3 text-sm md:flex hidden ">
           <Link
             href="/"
             className="hover:bg-white hover:text-black p-1 rounded-full text-stone-50 font-semibold"
           >
-            <BiHome className="h-[32px] w-[20px] " />
+            <BiHome className="h-[28px] w-[20px] " />
           </Link>
           <Link
             href="/about"

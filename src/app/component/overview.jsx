@@ -9,11 +9,11 @@ function OverviewComponent() {
   return (
     <>
       <div className="grid grid-cols-3 max-md:grid-cols-1 m-auto">
-        <div className=" col-span-2 max-sm:hidden max-md:hidden bg-yellow-200">
+        <div className=" col-span-2 max-sm:hidden max-md:hidden bg-slate-100">
           <Image src={photo} className="object-cover h-[100%] rounded-md" />
           <div></div> <nav></nav>
         </div>{" "}
-        <div className="grid bg-[#DDE485] items-center justify-center text-black text-center w-full p-4 ">
+        <div className="grid bg-slate-100 items-center justify-center text-black font-semibold text-xl text-center w-full p-4 ">
           <div className="bg-stone-50 hover:bg-[#DDE485] text-md  font-semibold py-2 px-2 rounded-md">
             Competitive Edge on Delivering Services
           </div>
