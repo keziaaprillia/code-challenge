@@ -8,7 +8,7 @@ function T3Component() {
           background
         </div>
         <div className="relative">
-          <div className="absolute w-full h-[40%] translate-y-[-230px] z-50 lg:text-2xl md:text-xl text-lg justify-center text-center font-semibold text-black hover:text-stone-50 rounded-lg">
+          <div className="absolute w-full h-[40%] translate-y-[-230px] z-30 lg:text-2xl md:text-xl text-lg justify-center text-center font-semibold text-black hover:text-stone-50 rounded-lg">
             Your supply chain partner, committed to excellence.
           </div>
         </div>
