@@ -8,13 +8,13 @@ import team4 from "../../assets/team4.jpeg";
 function TeamComponent() {
   return (
     <>
-      <div className=" bg-black text-white font-medium text-lg text-center p-4">
+      <div className=" bg-white font-semibold px-8 text-lg text-black p-4">
         {/* <div className="justify-center z-0 w-full h-[100px] blur-xl bg-gradient-to-r from-black via-[#42DCAE] to-[#DDE485]">
             background
           </div>{" "} */}
         <div>Meet the Team </div>
       </div>
-      <p className="font-base bg-black text-white text-center p-1 text-xs">
+      <p className="font-base bg-white text-black text-center p-1 text-xs">
         diverse team and great mind behind our work
       </p>
 
