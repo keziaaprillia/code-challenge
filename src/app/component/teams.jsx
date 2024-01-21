@@ -23,7 +23,7 @@ function TeamComponent() {
       grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
       >
         <div className=" flex justify-center text-center">
-          <Image src={team1} className="object-fit" />
+          <Image src={team1} className="object-fit " />
           <div className=" absolute">
             <div className=" text-ms p-1">Tim Miller</div>
             <div className="text-xs bg-orange-400 p-1 font-semibold ">

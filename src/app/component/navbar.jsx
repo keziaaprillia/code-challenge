@@ -76,9 +76,9 @@ function NavbarComponents() {
           )}
         </div>
         <div className="flex px-3 gap-4 text-sm">
-          <div className="hover:bg-white hover:text-black p-2 rounded-full text-stone-50 font-semibold">
+          {/* <div className="hover:bg-white hover:text-black p-2 rounded-full text-stone-50 font-semibold">
             Newsroom
-          </div>
+          </div> */}
           {/* logo */}
           <div className="hover:bg-white hover:text-black p-2 rounded-full text-stone-50 font-semibold">
             <RiShip2Fill className="h-[20px] w-[20px]" />

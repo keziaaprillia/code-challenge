@@ -5,6 +5,7 @@ import HistoryComponents from "../component/companyhistory";
 import pelabuhan from "../../assets/pelabuhan.png";
 import CultureComponent from "../component/culture";
 import NavbarComponents from "../component/navbar";
+import ClosingComponent from "../component/closing";
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
       <Image className="w-full" src={pelabuhan} alt=""></Image>
       <HistoryComponents />
       <CultureComponent />
+      <ClosingComponent />
     </>
   );
 }

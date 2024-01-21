@@ -13,18 +13,18 @@ function TestiComponent() {
     <>
       {/* grid content */}
       <div className="grid grid-cols-2 h-[400px] items-center bg-white">
-        <div className="py-24 px-24 max-sm:px-10 text-black max-sm:py-9 hover:text-white font-semibold text-xl">
+        <div className=" p-40 max-sm:px-10 text-black max-sm:py-9 hover:text-white font-semibold text-xl">
           What our client say?
         </div>
 
         <div className=" grid gap-4 grid-rows-4 text-black justify-center md:translate-y-10 max-sm:justify-items-end max-sm:hidden">
           <div className=" bg-zinc-50 hover:bg-[#DDE485] hover:shadow-lg py-2 px-2 max-w-60 rounded-md ">
             <div className=" inline-flex">
-              <div className=" mr-5 ml-2 h-10 w-10 text-[11px] text-center">
+              <div className="mr-5 ml-2  h-10 w-10 text-[11px] text-center">
                 <Image src={avatar1} className=" object-cover rounded-full" />
                 Anthony
               </div>
-              <div className=" text-[10.5px] p-2 h-14 w-40 bg-white rounded-md ">
+              <div className="text-[10.5px] p-2 h-14 w-40 bg-white rounded-md ">
                 My order deliver on-time!
               </div>
             </div>
@@ -66,10 +66,7 @@ function TestiComponent() {
             <div className="bg-zinc-50 hover:bg-[#DDE485] text-black w-[155px] h-[155px] text-center rounded-md">
               <div className="flex flex-col gap-2 p-2  text-[11px]">
                 <div className=" mr-5 ml-2 h-10 w-10 text-center">
-                  <Image
-                    src={avatar1}
-                    className="py-1 object-cover rounded-full"
-                  />
+                  <Image src={avatar1} className="object-cover rounded-full" />
                   Anthony
                 </div>
                 <div className="text-[10.5px] translate-y-5 p-2 h-16 w-22 bg-white rounded-md">
