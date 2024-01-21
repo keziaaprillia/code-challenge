@@ -19,11 +19,11 @@ export default function Home() {
       <BannerComponent />
       <MissionComponent />
       <PillarComponents />
-      <Image src={photo} className="w-full md:hidden" />
+      <Image src={photo} alt="" className="w-full md:hidden" />
       <OverviewComponent />
 
       <ServiceComponent />
-      <Image src={port} className="w-full" />
+      <Image src={port} alt="" className="w-full" />
 
       <TestiComponent />
 

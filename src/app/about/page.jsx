@@ -17,7 +17,7 @@ export default function About() {
           </h1>
         </div>
       </div>
-      <Image className="w-full" src={pelabuhan}></Image>
+      <Image className="w-full" src={pelabuhan} alt=""></Image>
       <HistoryComponents />
       <CultureComponent />
     </>

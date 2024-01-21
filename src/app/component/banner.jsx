@@ -9,6 +9,7 @@ function BannerComponent() {
       <div className="gradient-s w-full flex flex-col gap-4 relative bg-gray-300 ">
         <Image
           src={bannertruck}
+          alt=""
           className="object-cover opacity-50 rounded-lg w-full"
         />
         <div className="grid grid-col-2 absolute lg:px-[15%] lg:py-[20%] md:px-[10%] md:py-[15%] px-[5%] py-[10%] z-10 gap-1 justify-center bg-transparent w-full">
@@ -22,7 +23,7 @@ function BannerComponent() {
             >
               Discover
               <div className=" bg-lime-600 rounded-full p-[10.5px] ">
-                <Image src={checked} className=" h-[15px] w-[15px]" alt="" />{" "}
+                <Image src={checked} alt="" className=" h-[15px] w-[15px]" />{" "}
               </div>
             </Link>
           </div>
