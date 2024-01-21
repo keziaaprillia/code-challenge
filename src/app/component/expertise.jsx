@@ -1,7 +1,7 @@
 function ExpertiseComponent() {
   return (
     <div className="grid grid-rows-2 gap-2 bg-[#6A8E4E] p-2 w-full">
-      <div className="p-2 ml-10  font-semibold text-black text-xl hover:text-white">
+      <div className="font-semibold  text-black text-xl hover:text-white">
         Our Expertise
       </div>
       <div className="grid grid-cols-4 justify-items-center">

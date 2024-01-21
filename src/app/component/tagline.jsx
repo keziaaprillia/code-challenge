@@ -2,7 +2,7 @@ function TaglineComponent() {
   return (
     <>
       {/* backgroundcolor */}
-      <div className=" bg-white ">
+      <div className=" bg-white h-[400px] ">
         <div className=" justify-center "></div>
         <div className="z-0 w-full py-32 h-[400px] blur-3xl bg-gradient-to-r from-lime-300 via-[#42DCAE] to-[#DDE485]">
           background

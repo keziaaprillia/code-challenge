@@ -36,7 +36,7 @@ function ServiceComponent() {
       </div>
       <div className=" text-black max-sm:text-sm text-base w-full">
         The services we offer include; transportation of goods from port to
-        warehouse, from warehouse to warehouse, and from ware- house to port
+        warehouse, from warehouse to warehouse, and from ware-house to port
         depends on the to customer requests.
       </div>
       <div className=" p-2 flex items-center ">

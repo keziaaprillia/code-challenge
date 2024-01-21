@@ -11,7 +11,7 @@ function ServicePage() {
       <NavbarComponents />
 
       <OperationComponent />
-      <Image className="w-full" src={trucking}></Image>
+      <Image className="w-full" src={trucking} alt=""></Image>
       <ExpertiseComponent />
     </>
   );

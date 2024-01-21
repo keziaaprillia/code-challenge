@@ -11,6 +11,7 @@ import OperationComponent from "./component/operation";
 import ExpertiseComponent from "./component/expertise";
 import port from "../assets/port.jpg";
 import ServiceComponent from "./component/briefservices";
+import ClosingComponent from "./component/closing";
 
 export default function Home() {
   return (
@@ -21,13 +22,15 @@ export default function Home() {
       <PillarComponents />
       <Image src={photo} alt="" className="w-full md:hidden" />
       <OverviewComponent />
-
+      <div className="bg-white h-[100px]"></div>
+      <TaglineComponent />
+      <div className="bg-white h-[100px]"></div>
       <ServiceComponent />
       <Image src={port} alt="" className="w-full" />
 
       <TestiComponent />
 
-      <TaglineComponent />
+      <ClosingComponent />
     </>
   );
 }

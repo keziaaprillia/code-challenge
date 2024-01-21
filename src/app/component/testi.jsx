@@ -12,7 +12,7 @@ function TestiComponent() {
   return (
     <>
       {/* grid content */}
-      <div className="grid grid-cols-2 h-[500px] items-center bg-white">
+      <div className="grid grid-cols-2 h-[400px] items-center bg-white">
         <div className="py-24 px-24 max-sm:px-10 text-black max-sm:py-9 hover:text-white font-semibold text-xl">
           What our client say?
         </div>
