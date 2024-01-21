@@ -9,9 +9,8 @@ function OperationComponent() {
           Breakbulk
         </button>{" "}
         <div className="text-xs py-3">
-          Breakbulk operations in logistics refer to the handling, stowing, and
-          transportation of cargo that is not contained in standard-sized
-          shipping containers.
+          process of handling, stowing, and transportation of cargo that is not
+          contained in standard-sized shipping containers.
         </div>
       </div>
       <div className=" mt-20 max-sm:mt-3 max-sm:ml-4 ">
@@ -19,12 +18,8 @@ function OperationComponent() {
           Container
         </button>
         <div className="text-xs py-3">
-          Container handling refers to the process of loading, unloading, and
-          moving containers in a safe and efficient manner within a container
-          terminal. This process includes the use of various types of equipment,
-          such as container cranes, straddle carriers, reach stackers, and
-          forklifts, to move containers between ships, trucks, trains, and
-          storage areas.
+          process of loading, unloading, and moving containers in a safe and
+          efficient manner within a container terminal.
         </div>
       </div>
     </div>
