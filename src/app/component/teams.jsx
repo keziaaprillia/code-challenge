@@ -45,7 +45,7 @@ function TeamComponent() {
           <div className=" absolute">
             <div className=" text-ms p-1 ">Casandra Merlyn</div>
             <div className="text-xs bg-orange-400 p-1 font-semibold ">
-              Operation Manager
+              Finance & Accounting Manager
             </div>
           </div>
         </div>{" "}
