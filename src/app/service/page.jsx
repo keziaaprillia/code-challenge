@@ -8,6 +8,7 @@ import ClosingComponent from "../component/closing";
 
 import Tag2Component from "../component/tagline2";
 import T3Component from "../component/tag3";
+import PriceComponent from "../component/pricing";
 
 function ServicePage() {
   return (
@@ -20,7 +21,9 @@ function ServicePage() {
       <OperationComponent />
       <Image className="w-full" src={trucking} alt=""></Image>
       <ExpertiseComponent />
-      <div className="bg-white h-[140px]"></div>
+
+      <PriceComponent />
+      <div className="bg-white h-[160px]"></div>
       <T3Component />
       <div className="bg-white h-[140px]"></div>
 

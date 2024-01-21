@@ -4,7 +4,7 @@ function Tag2Component() {
       {/* backgroundcolor */}
       <div className=" bg-white h-[400px] ">
         <div className=" justify-center "></div>
-        <div className="z-0 w-full py-32 h-[400px] blur-3xl bg-gradient-to-r from-lime-300 via-[#FFB067] to-[#DDE485]">
+        <div className="z-0 w-full py-32 h-[400px] blur-3xl bg-gradient-to-r from-[#FFB067] via-[#DDE485] to-[#F5BD1E]">
           background
         </div>
         <div className="relative">

@@ -4,7 +4,7 @@ function T3Component() {
       {/* backgroundcolor */}
       <div className=" bg-white h-[400px] ">
         <div className=" justify-center "></div>
-        <div className="z-0 w-full py-32 h-[400px] blur-3xl bg-gradient-to-r from-[#DDE485] via-[#FFB067] to-gray-300">
+        <div className="z-0 w-full py-32 h-[400px] blur-3xl bg-gradient-to-r from-[#DDE485] via-[#FFB067] to-[#FFF347]">
           background
         </div>
         <div className="relative">

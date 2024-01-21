@@ -8,7 +8,7 @@ function OperationComponent() {
         <button className="bg-slate-50 px-3 p-2 text-black text-sm hover:bg-[#FFB067] rounded-full ">
           Breakbulk
         </button>{" "}
-        <div className="text-xs py-3">
+        <div className="text-xs text-black py-3">
           process of handling, stowing, and transportation of cargo that is not
           contained in standard-sized shipping containers.
         </div>
@@ -17,7 +17,7 @@ function OperationComponent() {
         <button className="bg-slate-50 hover:bg-[#FFB067] px-3 p-2 text-black text-sm rounded-full ">
           Container
         </button>
-        <div className="text-xs py-3">
+        <div className="text-xs text-black py-3">
           process of loading, unloading, and moving containers in a safe and
           efficient manner within a container terminal.
         </div>
