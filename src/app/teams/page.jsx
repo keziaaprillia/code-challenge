@@ -11,7 +11,7 @@ function TeamPage() {
     <>
       <NavbarComponents />
       <Image src={warehouse} alt="" className="object-fit" />
-      <div className="bg-lime-700 h-[20px]"></div>
+
       <div className="bg-white h-[100px]"></div>
       <TteamComponent />
       <div className="bg-white h-[100px]"></div>
