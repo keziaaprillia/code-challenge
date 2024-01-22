@@ -7,9 +7,10 @@ import PillarComponents from "./component/opspillar";
 import OverviewComponent from "./component/overview";
 import TestiComponent from "./component/testi";
 import photo from "../assets/photo.png";
+import samudera from "../assets/samudera.jpg";
 import OperationComponent from "./component/operation";
 import ExpertiseComponent from "./component/expertise";
-import port from "../assets/port.jpg";
+
 import ServiceComponent from "./component/briefservices";
 import ClosingComponent from "./component/closing";
 
@@ -25,8 +26,8 @@ export default function Home() {
       <div className="bg-white h-[100px]"></div>
       <TaglineComponent />
       <div className="bg-white h-[100px]"></div>
+      <Image src={samudera} alt="" className="object-cover w-full h-[700px] " />
       <ServiceComponent />
-      <Image src={port} alt="" className="w-full" />
 
       <TestiComponent />
 
