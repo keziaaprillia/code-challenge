@@ -37,11 +37,11 @@ function PillarComponents() {
               </div>{" "}
             </div>
           )} */}
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-2 text-xs text-black max-sm:hidden">
             • Regulatory compliance - operating under SIUJPT (surat izin usaha
             jasa pengurusan transportasi) & KIR kendaraan bermotor{" "}
           </div>
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-2 text-xs text-black max-sm:hidden">
             • Improving our operational safety - TRK & Zenmarine
           </div>
         </div>
@@ -62,7 +62,7 @@ function PillarComponents() {
             </div>
           )} */}
           {/* content - monitoring */}
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-2 text-xs text-black max-sm:hidden">
             {" "}
             • 24/7 monitoring using real-time GPS{" "}
           </div>
@@ -87,11 +87,11 @@ function PillarComponents() {
             </div>
           )} */}
           {/* maintaince - content */}
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-1 text-xs text-black max-sm:hidden">
             {" "}
             • Covering in-house maintenance{" "}
           </div>
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-1 text-xs text-black max-sm:hidden">
             {" "}
             • On-duty storing{" "}
           </div>
@@ -117,13 +117,13 @@ function PillarComponents() {
             </div>
           )} */}
           {/* operation - content */}
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-1 text-xs text-black max-sm:hidden">
             • Covering in-house driver management
           </div>
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-1 text-xs text-black max-sm:hidden">
             • Driver plotting
           </div>
-          <div className="p-2 text-sm text-black max-sm:hidden">
+          <div className="p-1 text-xs text-black max-sm:hidden">
             • Daily order report
           </div>
         </div>
